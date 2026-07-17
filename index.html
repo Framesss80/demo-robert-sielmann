@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Sielmann</title>
+    <title>Robert Sielmann | Personal Brand</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Bienvenido a la web de Robert Sielmann</h1>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Minimal Navigation -->
+    <nav class="nav-minimal fade-in">
+        <div class="logo">ROBERT SIELMANN</div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero.png" alt="Miami Skyline" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="fade-in-up">Helping people build a life in Miami.</h1>
+            <p class="fade-in-up delay-1">Personal guidance for buyers, investors and families looking to make one of life's biggest decisions with confidence.</p>
+            <div class="hero-actions fade-in-up delay-2">
+                <a href="#contact" class="btn btn-primary hoverable">Let's Talk</a>
+                <a href="#about" class="btn btn-secondary hoverable">Watch My Story</a>
+            </div>
+        </div>
+        <div class="scroll-indicator fade-in delay-3">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in-up">
+                    <img src="assets/portrait.png" alt="Robert Sielmann">
+                </div>
+                <div class="about-text">
+                    <div class="about-block fade-in-up">
+                        <span class="block-label">01</span>
+                        <h2>Who I Am</h2>
+                        <p>I am not just selling properties; I am crafting the foundation of your new life in Miami. My approach is personal, deeply human, and rooted in trust.</p>
+                    </div>
+                    <div class="about-block fade-in-up">
+                        <span class="block-label">02</span>
+                        <h2>My Philosophy</h2>
+                        <p>Luxury is not about a price tag; it's about the experience, the peace of mind, and the absolute certainty that someone is fighting for your best interests.</p>
+                    </div>
+                    <div class="about-block fade-in-up">
+                        <span class="block-label">03</span>
+                        <h2>Why I Chose Miami</h2>
+                        <p>Miami is a canvas of opportunities. Its energy, diversity, and relentless growth make it the perfect place to invest, live, and thrive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED CONTENT SECTION -->
+    <section class="featured section-padding bg-warm">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Latest Stories</h2>
+            <div class="featured-grid">
+                <a href="#" class="featured-card hoverable fade-in-up">
+                    <div class="card-img-wrapper">
+                        <img src="assets/thumb1.png" alt="Story 1">
+                        <div class="play-btn"></div>
+                    </div>
+                </a>
+                <a href="#" class="featured-card hoverable fade-in-up delay-1">
+                    <div class="card-img-wrapper">
+                        <img src="assets/thumb2.png" alt="Story 2">
+                        <div class="play-btn"></div>
+                    </div>
+                </a>
+                <a href="#" class="featured-card hoverable fade-in-up delay-2">
+                    <div class="card-img-wrapper">
+                        <img src="assets/thumb3.png" alt="Story 3">
+                        <div class="play-btn"></div>
+                    </div>
+                </a>
+                <a href="#" class="featured-card hoverable fade-in-up">
+                    <div class="card-img-wrapper">
+                        <img src="assets/thumb4.png" alt="Story 4">
+                        <div class="play-btn"></div>
+                    </div>
+                </a>
+                <a href="#" class="featured-card hoverable fade-in-up delay-1">
+                    <div class="card-img-wrapper">
+                        <img src="assets/thumb1.png" alt="Story 5">
+                        <div class="play-btn"></div>
+                    </div>
+                </a>
+                <a href="#" class="featured-card hoverable fade-in-up delay-2">
+                    <div class="card-img-wrapper">
+                        <img src="assets/thumb2.png" alt="Story 6">
+                        <div class="play-btn"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW I HELP SECTION -->
+    <section class="services section-padding">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card fade-in-up hoverable">
+                    <div class="service-icon">
+                        <div class="minimal-line"></div>
+                    </div>
+                    <h3>Buying a Home</h3>
+                    <p>Finding the perfect space to build your memories.</p>
+                </div>
+                <div class="service-card fade-in-up delay-1 hoverable">
+                    <div class="service-icon">
+                        <div class="minimal-circle"></div>
+                    </div>
+                    <h3>Investing in Miami</h3>
+                    <p>Strategic opportunities with long-term vision.</p>
+                </div>
+                <div class="service-card fade-in-up delay-2 hoverable">
+                    <div class="service-icon">
+                        <div class="minimal-square"></div>
+                    </div>
+                    <h3>Relocating with Confidence</h3>
+                    <p>A seamless transition to your new life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA SECTION -->
+    <section class="final-cta" id="contact">
+        <div class="cta-bg">
+            <img src="assets/hero.png" alt="Miami Night" class="cta-img" style="filter: brightness(0.3) contrast(1.2);">
+        </div>
+        <div class="cta-content fade-in-up">
+            <h2>Let's find the place you'll call home.</h2>
+            <a href="#" class="btn btn-primary hoverable mt-2">Schedule a Call</a>
+            <p class="discreet-note">This concept represents only a small preview of how Robert Sielmann's personal brand could evolve into a premium digital experience.</p>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
